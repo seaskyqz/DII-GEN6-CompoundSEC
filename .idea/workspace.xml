@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d295e7d4-e803-45a0-913d-4cce4a9859e0" name="Changes" comment="aaa">
-      <change afterPath="$PROJECT_DIR$/EntryExitMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NotificationSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentSystem.java" afterDir="false" />
+    <list default="true" id="d295e7d4-e803-45a0-913d-4cce4a9859e0" name="Changes" comment="001 lec7">
+      <change afterPath="$PROJECT_DIR$/keep work/keep work.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keep work/src/EntryExitMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep work/src/NotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep work/src/NotificationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep work/src/StudentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep work/src/StudentSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +40,16 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Acer/Documents/GitHub/DII-GEN6-CompoundSEC",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DII-GEN6-CompoundSEC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DII-GEN6-CompoundSEC" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,11 +67,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738820468779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="001 lec7">
+      <option name="closed" value="true" />
+      <created>1739161293225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739161293225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+    <MESSAGE value="001 lec7" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 lec7" />
   </component>
 </project>
