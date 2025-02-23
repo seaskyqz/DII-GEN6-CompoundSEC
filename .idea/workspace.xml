@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d295e7d4-e803-45a0-913d-4cce4a9859e0" name="Changes" comment="001 lec7">
-      <change afterPath="$PROJECT_DIR$/keep work/keep work.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keep work/src/EntryExitMethod.java" afterDir="false" />
+    <list default="true" id="d295e7d4-e803-45a0-913d-4cce4a9859e0" name="Changes" comment="001 lec8">
+      <change afterPath="$PROJECT_DIR$/AccessControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PINEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCareSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep work/src/NotificationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep work/src/NotificationSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep work/src/StudentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/keep work/src/StudentSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.StudentCareSystem.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -45,7 +49,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Acer/Documents/GitHub/DII-GEN6-CompoundSEC",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -75,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739161293225</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="001 lec8">
+      <option name="closed" value="true" />
+      <created>1739422916080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739422916080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <MESSAGE value="001 lec7" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 lec7" />
+    <MESSAGE value="001 lec8" />
+    <option name="LAST_COMMIT_MESSAGE" value="001 lec8" />
   </component>
 </project>
