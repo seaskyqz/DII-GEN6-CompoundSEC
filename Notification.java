@@ -2,39 +2,28 @@ import java.util.Arrays;
 import java.util.List;
 
 interface Notification {
-    void sendAlert(String studentID);
+    void sendAlert(String personID);
 }
 
 class SMSNotification implements Notification {
-    public void sendAlert(String studentID) {
-        System.out.println("SMS sent to parent of " + studentID);
+    public void sendAlert(String personID) {
+        System.out.println("SMS sent for " + personID);
     }
 }
 
 class EmailNotification implements Notification {
-    public void sendAlert(String studentID) {
-        System.out.println("Email sent to parent of " + studentID);
-    }
-}
-
-class AppNotification implements Notification {
-    public void sendAlert(String studentID) {
-        System.out.println("App notification sent for " + studentID);
+    public void sendAlert(String personID) {
+        System.out.println("Email sent for " + personID);
     }
 }
 
 class NotificationSystem {
-    private List<Notification> notifications;
+    private static List<Notification> notifications = Arrays.asList(
+            new SMSNotification(), new EmailNotification()
+    );
 
-    public NotificationSystem() {
-        this.notifications = Arrays.asList(
-                new SMSNotification(), new EmailNotification(), new AppNotification()
-        );
-    }
-
-    public void notifyParent(String studentID) {
+    public static void notifyAccessAttempt(String personID) {
         for (Notification n : notifications) {
-            n.sendAlert(studentID);
+            n.sendAlert(personID);
         }
     }
-}
