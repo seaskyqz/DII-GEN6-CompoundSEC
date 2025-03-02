@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e0761db-6104-4090-be2b-880dad3d37c6" name="Changes" comment="001 lec10" />
+    <list default="true" id="8e0761db-6104-4090-be2b-880dad3d37c6" name="Changes" comment="final project001">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccessCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AccessControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuditTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BasicCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CardManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Janitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PINEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TimeBasedEncryptionCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VIPCard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,22 +37,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2thCfNpAQAtiAC3Su9AVtKJ7iAN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/seraphim code(จาร์ยแนน)/final project1/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Acer/Documents/GitHub/DII-GEN6-CompoundSEC",
+    "onboarding.tips.debug.path": "C:/seraphim code(จาร์ยแนน)/final project1/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,11 +68,22 @@
       <option name="presentableId" value="Default" />
       <updated>1740795023196</updated>
     </task>
+    <task id="LOCAL-00001" summary="final project">
+      <option name="closed" value="true" />
+      <created>1740910475929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740910475929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="001 lec10" />
-    <option name="LAST_COMMIT_MESSAGE" value="001 lec10" />
+    <MESSAGE value="final project" />
+    <MESSAGE value="final project001" />
+    <option name="LAST_COMMIT_MESSAGE" value="final project001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
