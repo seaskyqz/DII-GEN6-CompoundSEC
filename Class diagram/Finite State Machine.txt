@@ -1,0 +1,22 @@
+@startuml
+[*] --> IdleState
+
+IdleState --> AddCard : Add Employee
+AddCard --> IdleState : Employee Added
+
+IdleState --> ModifyCardPermission : Card Modify
+ModifyCardPermission --> IdleState : Card Operation Completed
+
+IdleState --> RevokeCard : Card Revoke
+RevokeCard --> CardFoundState : Card Found
+RevokeCard --> IdleState : Card Operation Completed
+
+IdleState --> CheckAccess : Check Access
+CheckAccess --> CardFoundState : Card Found
+CheckAccess --> CardNotFoundState : Card Not Found
+CheckAccess --> IdleState : Access Checked
+
+IdleState --> Exit : Exit
+Exit --> IdleState : Return Idle State
+
+@enduml

@@ -1,0 +1,64 @@
+@startuml
+
+interface StudentDataManager {
+    +getStudentInfo(id: String): Student
+    +updateStudentInfo(student: Student)
+}
+
+class Student {
+    - id: String
+    - name: String
+    - grade: String
+    +getAccessLevel(): int
+}
+
+interface Notification {
+    +sendAlert(message: String)
+}
+
+class SMSNotification implements Notification {
+    +sendAlert(message: String)
+}
+
+class EmailNotification implements Notification {
+    +sendAlert(message: String)
+}
+
+class AppNotification implements Notification {
+    +sendAlert(message: String)
+}
+
+abstract class AccessControl {
+    +validateAccess(pin: String): boolean
+}
+
+class PinBasedAccess extends AccessControl {
+    +validateAccess(pin: String): boolean
+}
+
+class TimeRestrictedAccess extends AccessControl {
+    +validateAccess(pin: String): boolean
+}
+
+class AccessCard {
+    - cardNumber: String
+    - accessLevel: int
+    +validateAccess(): boolean
+}
+
+class AuditTrail {
+    - static instance: AuditTrail
+    +logAccess(student: Student)
+    +getLogs(): List<String>
+}
+
+AccessCard --|> Student
+StudentDataManager <|.. Student
+Notification <|.. SMSNotification
+Notification <|.. EmailNotification
+Notification <|.. AppNotification
+AccessControl <|.. PinBasedAccess
+AccessControl <|.. TimeRestrictedAccess
+AccessCard ..> AuditTrail
+
+@enduml
