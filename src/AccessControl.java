@@ -18,7 +18,11 @@ public class AccessControl {
 
     public static boolean hasAccess(Person user, Floor floor, String room) {
         boolean hasFloorAccess = floorAccess.getOrDefault(user.getID(), Set.of()).contains(floor);
-        boolean hasRoomAccess = roomAccess.getOrDefault(user.getRole(), Set.of()).contains(room);
+
+        // ตรวจสอบสิทธิ์เข้าห้องโดยไม่สนใจตัวพิมพ์ใหญ่-เล็ก
+        Set<String> allowedRooms = roomAccess.getOrDefault(user.getRole(), Set.of());
+        boolean hasRoomAccess = allowedRooms.stream().anyMatch(r -> r.equalsIgnoreCase(room));
+
         return hasFloorAccess && hasRoomAccess;
     }
 }

@@ -45,7 +45,7 @@ public class Main {
 
             System.out.println("Available rooms: " + availableRooms);
             System.out.print("Enter room to access: ");
-            String room = scanner.nextLine();
+            String room = scanner.nextLine().trim();
 
             if (AccessControl.hasAccess(user, floor, room)) {
                 System.out.println("Access granted to " + room + " on " + floor + " floor.");

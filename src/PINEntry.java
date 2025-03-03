@@ -7,6 +7,12 @@ class PINEntry {
     private static final int MAX_ATTEMPTS = 3;
     private final Map<String, Integer> failedAttempts = new HashMap<>();
     private final Set<String> lockedUsers = new HashSet<>();
+    private final Map<String, String> userPins = Map.of(
+            "S001", "0000", // นักเรียน
+            "D001", "1111", // ผู้อำนวยการ
+            "T001", "2222", // ครู
+            "J001", "3333"  // ภารโรง
+    );
 
     public boolean authenticate(String id) {
         Scanner scanner = new Scanner(System.in);
@@ -21,7 +27,7 @@ class PINEntry {
             System.out.print("Enter PIN for " + id + " (Attempt " + attempt + "/" + MAX_ATTEMPTS + "): ");
             String pin = scanner.nextLine();
 
-            if (pin.equals("1234")) {
+            if (userPins.getOrDefault(id, "9999").equals(pin)) { // ถ้าไม่มีค่าใน userPins จะใช้ "9999"
                 failedAttempts.put(id, 0); // รีเซ็ตจำนวนครั้งที่ผิด
                 return true;
             } else {
@@ -36,7 +42,6 @@ class PINEntry {
                 return false;
             }
         }
-
         return false;
     }
 }
